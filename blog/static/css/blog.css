@@ -1,0 +1,63 @@
+header h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+article {
+    background: rgb(255,255,255);
+    background: linear-gradient(143deg, rgba(255,255,255,1) 0%, rgba(255,173,0,1) 100%);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 8px;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.time {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+time {
+    font-style: italic;
+    font-size: 10px;
+    text-align: end;
+}
+
+article h2 {
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+}
+
+a, h1, h2 {
+    text-decoration: none;
+    font-family: 'Lobster';
+}
+
+h1 a {
+    color: black;
+}
+
+h1 a:hover {
+    color: #ffad00;
+}
+
+article a {
+    color: white;
+}
+
+article a:hover {
+    color: black;
+}
